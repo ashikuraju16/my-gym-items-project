@@ -45,7 +45,7 @@ const PriceOptions = () => {
     },
   ];
   return (
-    <div>
+    <div >
       <h2 className="text-5xl text-center mt-6 bg-sky-300 font-semibold p-6 rounded-2xl mx-auto w-1/2 text-black">
         Best{" "}
         <span className="text-7xl font-extrabold bg-green-500 p-2 hover:text-white hover:bg-green-700 text-red-800 rounded-tr-3xl rounded-bl-3xl">
