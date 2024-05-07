@@ -14,7 +14,7 @@ const PriceOptions = () => {
       price: 15.99,
       features: [
         "1.Live Gym",
-        "2. Limited Hours: 9:01AM-12PM",
+        " 2. Limited Hours: 9:01AM-12PM",
         " 3.Access to Locker Room",
         " 4.Personal Trainer",
       ],
