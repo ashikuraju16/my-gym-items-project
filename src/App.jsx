@@ -5,12 +5,9 @@ import PriceOptions from "./Components/PriceOptions/PriceOptions";
 function App() {
   return (
     <>
-
       <NavBar />
 
-        <PriceOptions />
-     
-  
+      <PriceOptions />
     </>
   );
 }
