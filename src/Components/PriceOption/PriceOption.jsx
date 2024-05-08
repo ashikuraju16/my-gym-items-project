@@ -1,4 +1,4 @@
-const PriceOption = (option) => {
+const PriceOption = (option, markHandler) => {
   const { name, price, features } = option;
   return (
     <div className="card  my-8   text-black  font-semibold flex flex-col text-center space-y-3 bg-slate-700 shadow-xl">
@@ -12,7 +12,7 @@ const PriceOption = (option) => {
         {features}
       </ul>
       {/* biome-ignore lint/a11y/useButtonType: <explanation> */}
-      <button className="text-xl bg-slate-800 p-4 w-2/6 mx-auto rounded-xl text-white hover:bg-slate-500 ">
+      <button onClick={markHandler} className="text-xl bg-slate-800 p-4 w-2/6 mx-auto rounded-xl text-white hover:bg-slate-500 ">
         Get Started
       </button>
     </div>
